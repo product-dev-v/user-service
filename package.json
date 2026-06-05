@@ -1,0 +1,18 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "User Service - микросервис управления пользователями",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage --passWithNoTests"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
